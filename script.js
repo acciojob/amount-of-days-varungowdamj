@@ -8,7 +8,6 @@ function daysOfAYear(year) {
 }
 
 // Prompt the user for input and convert the input to a number
-let inputYear = parseInt(prompt("Enter a year:"), 10);
+let inputYear = parseInt(prompt(""), 10);
 
-// Call the function and display the result
-alert(`The number of days in the year ${inputYear} is: ${daysOfAYear(inputYear)}`);
+daysOfAYear(inputYear)
